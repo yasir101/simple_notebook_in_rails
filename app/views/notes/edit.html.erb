@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 text-center mt-3">
+            <h1 class="display-1 hvr-underline-from-center hvr-grow-shadow">
+                No<span class="text-info">T</span>e B<span class="text-info">OO</span>k
+            </h1>
+        </div>
+    </div>
+
+    <section class="mt-3">
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-lg-8">
+                <h2>Add Note</h2>
+                <hr>
+                <%= render "form", note: @note %>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-4">
+                <h2 class="text-center">Your Notes</h2>
+                <hr>
+                <ul class="list-group">
+                    <% @notes.each do |note| %>
+                    <li class="list-group-item notes_area">
+                        <%= note.title %>
+                        <div class="action_area">
+                            <div class="row">
+                                <div class="col-sm-2 offset-sm-9 text-center bg-info text-decoration-none">
+                                    <%= link_to  "Edit", edit_note_path(note), class: "pt-3 text-white" %>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2 offset-sm-9 text-center bg-danger text-decoration-none">
+                                    <%= link_to  "Delete",note ,method: :delete , class: "pt-3 text-white" %>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
