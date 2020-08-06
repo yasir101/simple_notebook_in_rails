@@ -1,24 +1,11 @@
-# README
+# NoteBook App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is the simplest one. It conatains only CRUD oprations.
 
-Things you may want to cover:
+Things Included:
 
-* Ruby version
+* Ruby version 2.6.2
 
-* System dependencies
+* Gems (hover-rails)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Links (Google font, font-awesome)
