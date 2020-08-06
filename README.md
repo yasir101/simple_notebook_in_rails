@@ -1,6 +1,6 @@
 # NoteBook App
 
-This project is the simplest one. It conatains only CRUD oprations.
+This project is the simplest one. It contains only CRUD oprations.
 
 Things Included:
 
