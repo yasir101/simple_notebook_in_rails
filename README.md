@@ -2,7 +2,7 @@
 
 This project is the simplest one. It contains only CRUD oprations.
 
-Things Included:
+Details:
 
 * Ruby version 2.6.2
 
